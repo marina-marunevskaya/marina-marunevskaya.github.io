@@ -2,6 +2,7 @@
 
 ## August 4, 2020
 - A palette for the site was added.
+- Base HTML and CSS for the site was added.
 
 ## August 3, 2020
 - LICENSE was added.

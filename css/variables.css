@@ -2,4 +2,34 @@
     /* reset.css */
     --default-font-size: 1rem;
     --default-font-weight: 300;
+
+    /* utils.css */
+    --container-max-width: 1200px;
+
+    /* Background Colors */
+    --primary-background-color: 32, 29, 29; /* #201d1d */
+
+    /* Border Colors */
+    --navigation-link-current-border-color: #7f9c6e;
+    --navigation-link-hover-border-color: #d9d4d4;
+
+    /* Colors */
+    --primary-color: #ffffff;
+    --transparent-color: rgba(0, 0, 0, 0);
+
+    /* Font Families */
+    --primary-font-family: 'Montserrat', sans-serif;
+
+    /* Font Sizes */
+    --navigation-link-font-size: 1.2rem;
+
+    /* Font Weights */
+    --secondary-font-weight: 600;
+
+    /* Sizes */
+    --header-min-height: 50vh;
+    --main-header-min-height: 100vh;
+
+    /* Transitions */
+    --transition-duration: 1s;
 }
