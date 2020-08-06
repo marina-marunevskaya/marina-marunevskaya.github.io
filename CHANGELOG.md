@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## August 6, 2020
+- Font settings were updated.
+
 ## August 4, 2020
 - A palette for the site was added.
 - Base HTML and CSS for the site was added.
