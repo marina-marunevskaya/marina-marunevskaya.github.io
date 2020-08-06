@@ -31,9 +31,11 @@ body {
     color: var(--primary-color);
     cursor: pointer;
     display: block;
+    font-family: var(--secondary-font-family);
     font-size: var(--navigation-link-font-size);
     font-weight: var(--secondary-font-weight);
     padding: 15px 20px;
+    text-transform: uppercase;
     transition-duration: var(--transition-duration);
     transition-property: border-bottom-color;
     transition-timing-function: ease-in-out;
