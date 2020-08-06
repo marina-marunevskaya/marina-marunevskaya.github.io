@@ -1,7 +1,7 @@
 :root {
     /* reset.css */
     --default-font-size: 1rem;
-    --default-font-weight: 300;
+    --default-font-weight: 400;
 
     /* utils.css */
     --container-max-width: 1200px;
@@ -23,8 +23,12 @@
 
     /* Font Sizes */
     --navigation-link-font-size: 1.2rem;
+    --header-title-font-size: 2.5rem;
+    --main-header-title-font-size: 3rem;
+    --text-font-size: 1.1rem;
 
     /* Font Weights */
+    --primary-font-weight: 700;
     --secondary-font-weight: 600;
 
     /* Sizes */
@@ -33,4 +37,13 @@
 
     /* Transitions */
     --transition-duration: 1s;
+}
+
+@media (max-width: 300px) {
+    :root {
+        /* Font Sizes */
+        --navigation-link-font-size: 1.1rem;
+        --header-title-font-size: 1.8rem;
+        --main-header-title-font-size: 1.8rem;
+    }
 }

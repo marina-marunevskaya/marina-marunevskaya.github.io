@@ -1,3 +1,7 @@
 .main-header {
     min-height: var(--main-header-min-height);
 }
+
+.main-header .header-content__title {
+    font-size: var(--main-header-title-font-size);
+}

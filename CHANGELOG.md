@@ -3,6 +3,7 @@
 ## August 6, 2020
 - Font settings were updated.
 - Navligation link styles were updated.
+- Basic page headers were added.
 
 ## August 4, 2020
 - A palette for the site was added.

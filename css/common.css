@@ -14,6 +14,8 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
     min-height: var(--header-min-height);
 }
 
@@ -39,6 +41,30 @@ body {
     transition-duration: var(--transition-duration);
     transition-property: border-bottom-color;
     transition-timing-function: ease-in-out;
+}
+
+.header-content {
+    align-items: center;
+    background-color: rgba(var(--primary-background-color), 0.5);
+    color: var(--primary-color);
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-content__title {
+    font-family: var(--secondary-font-family);
+    font-size: var(--header-title-font-size);
+    font-weight: var(--primary-font-weight);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header-content__text {
+    font-size: var(--text-font-size);
+    margin-top: 10px;
+    text-align: center;
 }
 
 .footer {
