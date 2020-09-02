@@ -8,6 +8,7 @@
 
     /* Background Colors */
     --primary-background-color: 32, 29, 29; /* #201d1d */
+    --secondary-background-color: 127, 156, 110; /* #7f9c6e */
 
     /* Border Colors */
     --navigation-link-current-border-color: #7f9c6e;
@@ -15,6 +16,7 @@
 
     /* Colors */
     --primary-color: #ffffff;
+    --secondary-color: #201d1d;
     --transparent-color: rgba(0, 0, 0, 0);
 
     /* Font Families */
@@ -25,6 +27,8 @@
     --navigation-link-font-size: 1.2rem;
     --header-title-font-size: 2.5rem;
     --main-header-title-font-size: 3rem;
+    --section-title-font-size: 2rem;
+    --item-title-font-size: 1.8rem;
     --text-font-size: 1.1rem;
 
     /* Font Weights */
@@ -45,5 +49,7 @@
         --navigation-link-font-size: 1.1rem;
         --header-title-font-size: 1.8rem;
         --main-header-title-font-size: 1.8rem;
+        --section-title-font-size: 1.6rem;
+        --item-title-font-size: 1.4rem;
     }
 }

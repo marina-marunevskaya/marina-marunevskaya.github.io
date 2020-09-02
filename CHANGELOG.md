@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## September 2, 2020
+- A projects section for the portfolio page was added.
+
 ## August 6, 2020
 - Font settings were updated.
 - Navligation link styles were updated.

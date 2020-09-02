@@ -10,6 +10,31 @@
     border-bottom-width: 1px;
 }
 
+/* Position */
+.full-absolute {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/* Sections */
+.section {
+    color: var(--secondary-color);
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.section__title {
+    font-family: var(--secondary-font-family);
+    font-size: var(--section-title-font-size);
+    font-weight: var(--primary-font-weight);
+    margin-bottom: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 /* Text */
 .text-center {
     text-align: center;

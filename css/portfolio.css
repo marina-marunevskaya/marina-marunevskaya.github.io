@@ -1,0 +1,85 @@
+.projects__block {
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-gap: 15px;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px 5px;
+}
+
+.project__container {
+    min-height: 150px;
+    overflow: hidden;
+    padding-top: 60%;
+    position: relative;
+    width: 100%;
+}
+
+.project__image {
+    object-fit: cover; 
+    transition-duration: var(--transition-duration);
+    transition-property: transform;
+    transition-timing-function: ease-in-out;  
+}
+
+.project__container:hover .project__image {
+    transform: scale(1.2);
+}
+
+.project__content {
+    align-items: center;
+    background-color: rgba(var(--primary-background-color), 0.7);
+    color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition-duration: var(--transition-duration);
+    transition-property: background-color;
+    transition-timing-function: ease-in-out;
+}
+
+.project__content:hover {
+    background-color: rgba(var(--primary-background-color), 0.5);
+}
+
+.project__title {
+    font-family: var(--secondary-font-family);
+    font-size: var(--item-title-font-size);
+    font-weight: var(--secondary-font-weight);
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.project__link {
+    background-color: rgb(var(--secondary-background-color));
+    border: 1px solid rgb(var(--secondary-background-color));
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    font-family: var(--secondary-font-family);
+    font-size: var(--navigation-link-font-size);
+    font-weight: var(--secondary-font-weight);
+    padding: 5px 10px;
+    text-transform: uppercase;
+    transition-duration: var(--transition-duration);
+    transition-property: border-color;
+    transition-timing-function: ease-in-out;
+}
+
+.project__link:hover {
+    border-color: rgb(var(--navigation-link-hover-border-color));
+}
+
+@media (min-width: 500px) {
+    .projects__block {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 10px;
+    }
+}
+
+@media (min-width: 900px) {
+    .projects__block {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 10px 15px;
+    }
+}
