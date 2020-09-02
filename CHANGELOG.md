@@ -3,6 +3,7 @@
 ## September 2, 2020
 - A projects section for the portfolio page was added.
 - HTML validation errors were fixed.
+- A basic portfolio page for the Light Studio site was added.
 
 ## August 6, 2020
 - Font settings were updated.

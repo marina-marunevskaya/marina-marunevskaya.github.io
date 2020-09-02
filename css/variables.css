@@ -38,6 +38,7 @@
     /* Sizes */
     --header-min-height: 50vh;
     --main-header-min-height: 100vh;
+    --portfolio-header-min-height: 100vh;
 
     /* Transitions */
     --transition-duration: 1s;
