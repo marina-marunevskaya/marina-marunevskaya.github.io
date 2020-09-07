@@ -1,5 +1,8 @@
 # CHANGELOG
 
+## September 7, 2020
+- Meta information was updated.
+
 ## September 2, 2020
 - A projects section for the portfolio page was added.
 - HTML validation errors were fixed.
