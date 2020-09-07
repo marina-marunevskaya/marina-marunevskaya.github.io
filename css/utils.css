@@ -35,6 +35,10 @@
     text-transform: uppercase;
 }
 
+.title__icon {
+    font-size: inherit;
+}
+
 /* Text */
 .text-center {
     text-align: center;
