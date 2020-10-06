@@ -1,0 +1,3 @@
+.home-header {
+	min-height: var(--home-header-min-height);
+}
