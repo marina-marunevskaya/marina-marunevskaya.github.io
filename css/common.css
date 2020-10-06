@@ -1,0 +1,5 @@
+body {
+	font-family: var(--primary-font-family);
+	justify-content: space-between;
+	min-height: var(--body-min-height);
+}

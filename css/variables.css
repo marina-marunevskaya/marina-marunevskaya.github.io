@@ -2,4 +2,10 @@
 	/* reset.css */
 	--default-font-size: 1rem;
 	--default-font-weight: 400;
+
+	/* Font Families */
+	--primary-font-family: 'Montserrat', sans-serif;
+
+	/* Heights */
+	--body-min-height: 100vh;
 }
