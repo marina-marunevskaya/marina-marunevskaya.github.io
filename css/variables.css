@@ -8,4 +8,6 @@
 
 	/* Heights */
 	--body-min-height: 100vh;
+	--header-min-height: 50vh;
+	--home-header-min-height: 100vh;
 }
