@@ -55,6 +55,13 @@ body {
 	text-align: center;
 }
 
+.footer {
+	background-color: rgb(var(--primary-background-color));
+	color: var(--primary-color);
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
 @media (min-width: 500px) {
 	.header-navigation__menu {
 		flex-direction: row;
