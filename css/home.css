@@ -1,3 +1,7 @@
 .home-header {
 	min-height: var(--home-header-min-height);
 }
+
+.home-header-content__title {
+	font-size: var(--home-header-title-font-size);
+}

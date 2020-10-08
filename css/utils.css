@@ -5,6 +5,15 @@
 }
 
 /* Flex */
+.flex-1 {
+	flex: 1;
+}
+
+.flex-center {
+	align-items: center;
+	justify-content: center;
+}
+
 .flex-column {
 	display: flex;
 	flex-direction: column;

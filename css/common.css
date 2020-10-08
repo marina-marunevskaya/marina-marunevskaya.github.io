@@ -36,6 +36,25 @@ body {
 	transition-timing-function: ease-in-out;
 }
 
+.header-content {
+	background-color: rgba(var(--primary-background-color), 0.5);
+	color: var(--primary-color);
+}
+
+.header-content__title {
+	font-family: var(--secondary-font-family);
+	font-size: var(--header-title-font-size);
+	font-weight: var(--primary-font-weight);
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.header-content__text {
+	font-size: var(--text-font-size);
+	margin-top: 10px;
+	text-align: center;
+}
+
 @media (min-width: 500px) {
 	.header-navigation__menu {
 		flex-direction: row;

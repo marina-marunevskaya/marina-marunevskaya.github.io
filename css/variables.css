@@ -23,8 +23,12 @@
 
 	/* Font Sizes */
 	--navigation-link-font-size: 1.2rem;
+	--header-title-font-size: 2.5rem;
+	--home-header-title-font-size: 3rem;
+	--text-font-size: 1.1rem;
 
 	/* Font Weights */
+	--primary-font-weight: 700;
 	--secondary-font-weight: 600;
 
 	/* Heights */
@@ -34,4 +38,11 @@
 
 	/* Transitions */
 	--transition-duration: 1s;
+}
+
+@media (max-width: 300px) {
+	:root {
+		--header-title-font-size: 1.8rem;
+		--home-header-title-font-size: 1.8rem;
+	}
 }
