@@ -1,4 +1,5 @@
 body {
+	color: var(--primary-color);
 	font-family: var(--primary-font-family);
 	justify-content: space-between;
 	min-height: var(--body-min-height);
@@ -23,7 +24,6 @@ body {
 
 .header-navigation__link {
 	border-bottom: 5px solid var(--transparent-color);
-	color: var(--primary-color);
 	cursor: pointer;
 	display: block;
 	font-family: var(--secondary-font-family);
@@ -38,7 +38,6 @@ body {
 
 .header-content {
 	background-color: rgba(var(--primary-background-color), 0.5);
-	color: var(--primary-color);
 }
 
 .header-content__title {
@@ -57,7 +56,6 @@ body {
 
 .footer {
 	background-color: rgb(var(--primary-background-color));
-	color: var(--primary-color);
 	padding-bottom: 20px;
 	padding-top: 20px;
 }
