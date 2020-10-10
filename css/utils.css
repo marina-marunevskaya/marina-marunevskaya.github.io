@@ -19,6 +19,11 @@
 	flex-direction: column;
 }
 
+/* Icons */
+.icon {
+	font-size: inherit;
+}
+
 /* Text */
 .text-center {
 	text-align: center;
