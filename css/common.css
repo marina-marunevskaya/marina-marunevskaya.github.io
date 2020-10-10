@@ -59,11 +59,11 @@ body {
 	padding: 5px 10px;
 }
 
-.credits {
-	padding-top: 30px;
+.footer-credits {
+	margin-top: 30px;
 }
 
-.credits__link {
+.footer-credits__link {
 	border-bottom-style: dotted;
 	border-bottom-width: 1px;
 }
