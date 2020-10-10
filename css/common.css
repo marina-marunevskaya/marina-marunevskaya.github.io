@@ -84,6 +84,15 @@ body {
 	justify-content: center;
 }
 
+.credits {
+	padding-top: 30px;
+}
+
+.credits__link {
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+}
+
 @media (min-width: 500px) {
 	.header-navigation__menu {
 		flex-direction: row;
