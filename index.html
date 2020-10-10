@@ -1,64 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="description" content="A react frontend developer's personal website">
-        <meta name="keywords" content="frontend, frontend developer, frontend development">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Oswald:wght@600;700&display=swap" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" crossorigin="anonymous">
-        <link rel="stylesheet" href="./css/variables.css">
-        <link rel="stylesheet" href="./css/reset.css">
-        <link rel="stylesheet" href="./css/utils.css">
-        <link rel="stylesheet" href="./css/common.css">
-        <link rel="stylesheet" href="./css/main.css">
-        <title>Home | Marina Marunevskaya</title>
-    </head>
-    <body>
-        <!-- Main Header -->
-        <header class="header main-header">
-            <nav class="header-navigation">
-                <div class="container text-center header-navigation__menu">
-                    <a class="header-navigation__link header-navigation__link--current" href="./index.html">
-                        <span class="fas fa-laptop"></span> MM
-                    </a>
-        
-                    <ul class="header-navigation__menu">
-                        <li>
-                            <a class="header-navigation__link" href="./portfolio.html">
-                                Portfolio
-                            </a>
-                        </li>
-                        <li>
-                            <a class="header-navigation__link" href="./about.html">
-                                About
-                            </a>
-                        </li>
-                        <li>
-                            <a class="header-navigation__link" href="./contact.html">
-                                Contact
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<meta name="description" content="A React frontend developer's personal website">
+		<meta name="keywords" content="frontend, frontend developer, frontend development, React, React frontend developer">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@600;700&display=swap" crossorigin="anonymous">
+		<link rel="stylesheet" href="./css/variables.css">
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/utils.css">
+		<link rel="stylesheet" href="./css/common.css">
+		<link rel="stylesheet" href="./css/home.css">
+		<title>
+			Home | Marina Marunevskaya
+		</title>
+	</head>
 
-            <section class="header-content">
-                <h1 class="header-content__title">
-                    React Frontend Developer
-                </h1>
-                <p class="header-content__text">
-                    Hi! I'm Marina Marunevskaya and this is my personal website.
-                </p>
-            </section>
-        </header>
+	<body class="flex-column">
+		<header class="flex-column header home-header">
+			<nav class="header-navigation">
+				<div class="container flex-column text-center navigation__menu">
+					<a class="navigation__link header-navigation__link header-navigation__link--current" href="./index.html">
+						<span class="icon fas fa-laptop"></span>
+						MM
+					</a>
 
-        <!-- Footer -->
-        <footer class="footer">
-            <div class="container text-center">
-                <a class="external-link" href="https://unsplash.com/photos/TkEPQPWr2sY" target="_blank">Photo</a> by <a  class="external-link" href="https://unsplash.com/@blocks" target="_blank">MARK S.</a> on <a  class="external-link" href="https://unsplash.com/" target="_blank">Unsplash</a>
-            </div>
-        </footer>
-    </body>
+					<ul class="flex-column navigation__menu">
+						<li>
+							<a class="navigation__link header-navigation__link" href="#">
+								Portfolio
+							</a>
+						</li>
+						<li>
+							<a class="navigation__link header-navigation__link" href="#">
+								About
+							</a>
+						</li>
+						<li>
+							<a class="navigation__link header-navigation__link" href="#">
+								Contact
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+
+			<section class="flex-1 flex-column flex-center text-center header-content">
+				<h1 class="header-content__title home-header-content__title">
+					React Frontend Developer
+				</h1>
+
+				<p class="text header-content__text">
+					Hi! I'm Marina Marunevskaya and this is my personal website.
+				</p>
+			</section>
+		</header>
+
+		<footer class="footer">
+			<div class="container">
+				<nav>
+					<ul class="flex-column navigation__menu">
+						<li class="flex-1 flex-column flex-center">
+							<a class="flex-1 navigation__link footer-navigation__link" href="./index.html">
+								Home
+							</a>
+						</li>
+						<li class="flex-1 flex-column flex-center">
+							<a class="flex-1 navigation__link footer-navigation__link" href="#">
+								Portfolio
+							</a>
+						</li>
+						<li class="flex-1 flex-column flex-center">
+							<a class="flex-1 navigation__link footer-navigation__link" href="#">
+								About
+							</a>
+						</li>
+						<li class="flex-1 flex-column flex-center">
+							<a class="navigation__link footer-navigation__link" href="#">
+								Contact
+							</a>
+
+							<ul class="flex-column flex-center footer-navigation__submenu">
+								<li>
+									<a class="navigation__link footer-navigation__link" href="#">
+										<span class="icon fab fa-linkedin"></span>
+										LinkedIn
+									</a>
+								</li>
+								<li>
+									<a class="navigation__link footer-navigation__link" href="#">
+										<span class="icon fab fa-github-square"></span>
+										GitHub
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+
+				<p class="text-center footer-credits">
+					<a class="footer-credits__link" href="https://unsplash.com/photos/TkEPQPWr2sY" target="_blank">Photo</a> by <a class="footer-credits__link" href="https://unsplash.com/@blocks" target="_blank">MARK S.</a> on <a class="footer-credits__link" href="https://unsplash.com/" target="_blank">Unsplash</a>
+				</p>
+			</div>
+		</footer>
+	</body>
 </html>
