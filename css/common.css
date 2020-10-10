@@ -42,14 +42,12 @@ body {
 	font-family: var(--secondary-font-family);
 	font-size: var(--header-title-font-size);
 	font-weight: var(--primary-font-weight);
-	text-align: center;
 	text-transform: uppercase;
 }
 
 .header-content__text {
 	font-size: var(--text-font-size);
 	margin-top: 10px;
-	text-align: center;
 }
 
 .footer {
