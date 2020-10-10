@@ -19,7 +19,16 @@
 	flex-direction: column;
 }
 
+/* Icons */
+.icon {
+	font-size: inherit;
+}
+
 /* Text */
+.text {
+	font-size: var(--text-font-size);
+}
+
 .text-center {
 	text-align: center;
 }
