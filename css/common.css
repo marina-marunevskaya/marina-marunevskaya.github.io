@@ -46,7 +46,6 @@ body {
 }
 
 .header-content__text {
-	font-size: var(--text-font-size);
 	margin-top: 10px;
 }
 
