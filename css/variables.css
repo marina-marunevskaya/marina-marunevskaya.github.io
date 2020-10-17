@@ -8,6 +8,7 @@
 
 	/* Background Colors */
 	--primary-background-color: 32, 29, 29; /* #201d1d */
+	--secondary-background-color: 127, 156, 110; /* #7f9c6e */
 
 	/* Border Colors */
 	--navigation-link-current-border-color: #7f9c6e;
