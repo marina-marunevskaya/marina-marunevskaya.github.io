@@ -29,6 +29,15 @@
 	font-size: inherit;
 }
 
+/* Positions */
+.full-absolute {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
 /* Sections */
 .section {
 	padding-bottom: 50px;
