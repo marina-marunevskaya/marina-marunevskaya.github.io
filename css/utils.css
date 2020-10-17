@@ -4,6 +4,11 @@
 	max-width: var(--container-max-width);
 }
 
+/* Colors */
+.secondary-color {
+	color: var(--secondary-color);
+}
+
 /* Flex */
 .flex-1 {
 	flex: 1;
