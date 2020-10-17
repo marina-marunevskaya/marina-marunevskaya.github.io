@@ -25,6 +25,8 @@
 	--navigation-link-font-size: 1.2rem;
 	--header-title-font-size: 2.5rem;
 	--home-header-title-font-size: 3rem;
+	--section-title-font-size: 2rem;
+	--section-subtitle-font-size: 1.8rem;
 	--text-font-size: 1.1rem;
 
 	/* Font Weights */
@@ -44,5 +46,7 @@
 	:root {
 		--header-title-font-size: 1.8rem;
 		--home-header-title-font-size: 1.8rem;
+		--section-title-font-size: 1.6rem;
+		--section-subtitle-font-size: 1.4rem;
 	}
 }
