@@ -11,6 +11,7 @@ body {
 	font-family: var(--secondary-font-family);
 	font-size: var(--navigation-link-font-size);
 	font-weight: var(--secondary-font-weight);
+	padding: 5px 10px;
 	text-transform: uppercase;
 }
 
@@ -53,10 +54,6 @@ body {
 	background-color: rgb(var(--primary-background-color));
 	padding-bottom: 20px;
 	padding-top: 20px;
-}
-
-.footer-navigation__link {
-	padding: 5px 10px;
 }
 
 .footer-credits {

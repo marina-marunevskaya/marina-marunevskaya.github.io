@@ -12,24 +12,24 @@
 		<link rel="stylesheet" href="./css/reset.css">
 		<link rel="stylesheet" href="./css/utils.css">
 		<link rel="stylesheet" href="./css/common.css">
-		<link rel="stylesheet" href="./css/home.css">
+		<link rel="stylesheet" href="./css/portfolios.css">
 		<title>
-			Home | Marina Marunevskaya
+			Portfolio | Marina Marunevskaya
 		</title>
 	</head>
 
 	<body class="flex-column">
-		<header class="flex-column header home-header">
+		<header class="flex-column header">
 			<nav class="header-navigation">
 				<div class="container flex-column text-center navigation__menu">
-					<a class="navigation__link header-navigation__link header-navigation__link--current" href="./index.html">
+					<a class="navigation__link header-navigation__link" href="./index.html">
 						<span class="icon fas fa-laptop"></span>
 						MM
 					</a>
 
 					<ul class="flex-column navigation__menu">
 						<li>
-							<a class="navigation__link header-navigation__link" href="./portfolio.html">
+							<a class="navigation__link header-navigation__link header-navigation__link--current" href="./portfolio.html">
 								Portfolio
 							</a>
 						</li>
@@ -48,15 +48,39 @@
 			</nav>
 
 			<section class="flex-1 flex-column flex-center text-center header-content">
-				<h1 class="header-content__title home-header-content__title">
-					React Frontend Developer
+				<h1 class="header-content__title">
+					Portfolio
 				</h1>
-
-				<p class="text header-content__text">
-					Hi! I'm Marina Marunevskaya and this is my personal website.
-				</p>
 			</section>
 		</header>
+
+		<main>
+			<section class="section">
+				<div class="container">
+					<h2 class="secondary-color text-center section__title">
+						Personal Projects
+					</h2>
+
+					<div class="projects">
+						<article>
+							<div class="project__container">
+								<img class="full-absolute project__image" src="./images/portfolio/light-studio.jpg" alt="A cheese plant leaf in a glass vase">
+
+								<div class="flex-column flex-center full-absolute project__content">
+									<h3 class="text-center section__subtitle">
+										Light Studio
+									</h3>
+
+									<a class="navigation__link project__link" href="#">
+										Learn More
+									</a>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+		</main>
 
 		<footer class="footer">
 			<div class="container">
