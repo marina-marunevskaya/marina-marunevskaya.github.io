@@ -1,0 +1,3 @@
+.portfolio-header {
+	min-height: var(--portfolio-header-min-height);
+}
