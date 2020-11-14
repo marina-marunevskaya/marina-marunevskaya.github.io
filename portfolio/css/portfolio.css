@@ -16,7 +16,6 @@
 }
 
 .link {
-	background-color: rgb(var(--secondary-background-color));
 	border: 2px solid rgb(var(--secondary-background-color));
 	border-radius: 10px;
 	margin-bottom: 30px;
