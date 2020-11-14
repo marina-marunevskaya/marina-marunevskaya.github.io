@@ -11,8 +11,6 @@
 }
 
 .links {
-	display: flex;
-	flex-direction: column;
 	justify-content: space-between;
 	padding: 5px 10px;
 }
