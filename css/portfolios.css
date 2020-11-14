@@ -37,12 +37,8 @@
 }
 
 .project__link {
-	background-color: rgb(var(--secondary-background-color));
 	border: 1px solid rgb(var(--secondary-background-color));
 	border-radius: 5px;
-	transition-duration: var(--transition-duration);
-	transition-property: border-color;
-	transition-timing-function: ease-in-out;
 }
 
 .project__link:hover {

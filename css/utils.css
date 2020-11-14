@@ -4,6 +4,11 @@
 	max-width: var(--container-max-width);
 }
 
+/* Background Colors */
+.secondary-background-color {
+	background-color: rgb(var(--secondary-background-color));
+}
+
 /* Colors */
 .secondary-color {
 	color: var(--secondary-color);
@@ -72,4 +77,11 @@
 
 .text-center {
 	text-align: center;
+}
+
+/* Transitions */
+.transition-border-color {
+	transition-duration: var(--transition-duration);
+	transition-property: border-color;
+	transition-timing-function: ease-in-out;
 }
