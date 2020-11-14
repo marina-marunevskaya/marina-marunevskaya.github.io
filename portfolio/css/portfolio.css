@@ -20,9 +20,6 @@
 	border-radius: 10px;
 	margin-bottom: 30px;
 	padding: 10px 15px;
-	transition-duration: var(--transition-duration);
-	transition-property: border-color;
-	transition-timing-function: ease-in-out;
 }
 
 .link:hover {
