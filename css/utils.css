@@ -70,9 +70,14 @@
 	text-transform: uppercase;
 }
 
+.section__content {
+	padding: 10px;
+}
+
 /* Text */
 .text {
 	font-size: var(--text-font-size);
+	line-height: 1.5;
 }
 
 .text-center {
@@ -84,4 +89,10 @@
 	transition-duration: var(--transition-duration);
 	transition-property: border-color;
 	transition-timing-function: ease-in-out;
+}
+
+@media (max-width: 300px) {
+	.section__content {
+		padding: 5px;
+	}
 }

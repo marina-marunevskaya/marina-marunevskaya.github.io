@@ -1,0 +1,44 @@
+.company {
+	margin-bottom: 20px;
+}
+
+.company__name {
+	margin-bottom: 20px;
+	text-transform: none;
+}
+
+.company__positions {
+	max-width: 100%;
+	width: 380px;
+}
+
+.company__position {
+	margin-bottom: 30px;
+}
+
+.company__position__title {
+	font-family: var(--secondary-font-family);
+	font-weight: var(--secondary-font-weight);
+	margin-bottom: 5px;
+}
+
+@media (min-width: 900px) {
+	.company {
+		flex-direction: row;
+		margin-bottom: 30px;
+	}
+
+	.company__name {
+		align-self: start;
+		flex: 1;
+		margin-bottom: 0;
+	}
+
+	.company__positions {
+		flex: 2;
+	}
+
+	.company__position {
+		margin-bottom: 20px;
+	}
+}
